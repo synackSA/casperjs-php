@@ -22,7 +22,7 @@
         "source": "https://github.com/synackSA/casperjs-php"
     },
     "require": {
-        "alwex/php-casperjs": "*"
+        "phpcasperjs/phpcasperjs": "*"
     },
     "autoload": {
         "psr-4": {
