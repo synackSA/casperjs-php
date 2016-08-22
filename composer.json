@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "synacksa\\casperjsphp": "src/"
+            "synacksa\\casperjsphp\\": "src/"
         }
     },
     "extra": {
