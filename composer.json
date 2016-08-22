@@ -1,7 +1,7 @@
 {
     "name": "synacksa/casperjs-php",
     "description": "Extension of alwex/php-casperjs including extra functions",
-    "type": "yii2-extension",
+    "type": "extension",
     "keywords": [
         "synackSA",
         "casperjs",
@@ -9,7 +9,7 @@
         "php"
     ],
     "homepage": "https://github.com/synackSA/casperjs-php",
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "Garth Michel",
