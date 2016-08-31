@@ -126,7 +126,7 @@ var pageCount = this.evaluate(function () {
 this.echo("$pageCountVarName" + pageCount);
 FRAGMENT;
 
-$casper->addStep($step);
+$casper->then($step);
 $casper->run();
 
 $pageCount = $casper->getCustomVar($pageCountVarName);
