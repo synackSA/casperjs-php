@@ -94,7 +94,7 @@ var_dump($casper->getOutput());
 
 ```
 
-You can also create you're own snippets to use
+You can also create your own snippets to use
 ```php
 $step = <<<FRAGMENT
 casper.then(function () {
