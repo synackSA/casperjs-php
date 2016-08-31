@@ -117,7 +117,7 @@ $casper->then($thenCode);
 Want to store data, for you to access after the run?
 ```php
 $pageCountVarName = '[PAGE_COUNT]';
-$casper->setCustomVar(pageCountVarName);
+$casper->setCustomVar($pageCountVarName);
 
 $step = <<<FRAGMENT
 var pageCount = this.evaluate(function () {
