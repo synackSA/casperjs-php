@@ -17,7 +17,7 @@ class Casper
     const TAG_CURRENT_HTML = '[CURRENT_HTML]';
 
     private $_parts = [];
-    private $_debug = false;
+    private $_debug = 'false';
     private $_script = '';
     private $_output = [];
     private $_requestedUrls = [];
@@ -307,9 +307,7 @@ FRAGMENT;
      */
     public function sendKeys($selector, $keys)
     {
-        $jsonData = json_encode($keys);
-
-        $this->then("this.sendKeys('{$selector}', {$jsonData});");
+        $this->then("this.sendKeys('{$selector}', '{$keys}');");
 
         return $this;
     }
